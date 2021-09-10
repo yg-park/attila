@@ -51,6 +51,7 @@ textarea {
 .post-content {
 	font-size: 1.75em;
 	line-height: 2em;
+	word-break: keep-all;
 
 	a {
 		color: inherit;
@@ -1586,6 +1587,7 @@ textarea {
 .nav-footer {
 	position: relative;
 	z-index: 20;
+	padding-top: 4rem;
 	padding-bottom: 4rem;
 	margin-top: auto;
 
