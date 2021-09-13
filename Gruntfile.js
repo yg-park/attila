@@ -15,7 +15,7 @@ module.exports = function(grunt) {
         '<%= config.jsSrcDir %>/libs/jquery.min.js',
         '<%= config.jsSrcDir %>/libs/elasticlunr.min.js',
         '<%= config.jsSrcDir %>/libs/jquery.fitvids.js',
-        '<%= config.jsSrcDir %>/libs/highlight.pack.js'
+        '<%= config.jsSrcDir %>/libs/prism.js'
       ]
     },
     copy: {
