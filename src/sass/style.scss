@@ -1052,7 +1052,7 @@ textarea {
 	margin: 0 auto;
 	padding: 0 8rem;
 	@media only screen and (max-width: $breakpoint-medium) {
-		padding: 0 4rem;
+		padding: 0 1.25rem;
 	}
 }
 
@@ -1393,6 +1393,10 @@ textarea {
 	display: flex;
 	max-height: calc(100vh - 6rem);
 	padding: 2rem 4rem;
+	@media only screen and (max-width: $breakpoint-medium) {
+		padding: 2rem 1.25rem;
+	}
+	
 	overflow-y: auto;
 }
 
